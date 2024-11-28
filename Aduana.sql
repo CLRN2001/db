@@ -1,0 +1,105 @@
+CREATE TABLE Aduana(
+   ID_Aduana                 INTEGER  NOT NULL PRIMARY KEY 
+  ,Nombre de aduana        VARCHAR(46) NOT NULL
+  ,ID_Region                 INTEGER  NOT NULL
+  ,Tipo de Establecimiento INTEGER  NOT NULL
+  ,Fecha de Creacion       VARCHAR(23) NOT NULL
+  ,x                         VARCHAR(12) NOT NULL
+  ,y                         VARCHAR(12) NOT NULL
+  ,FOREIGN KEY (ID_Region) REFERENCES Regiones(ID_Region)
+);
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (1,'Aduana Colina',13,5,'04-23-2020 03:43:37,551','-7868755,742','-3889528,043');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (2,'Aduana Lampa',13,5,'04-23-2020 03:43:37,551','-7882752,737','-3886133,863');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (3,'Aduana Tiltil',13,5,'04-23-2020 03:43:37,551','-7904773,361','-3903442,871');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (4,'Aduana Pangue',13,5,'04-23-2020 03:43:37,551','-7928725,493','-3931301,724');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (5,'Aduana Curacaví',13,5,'04-23-2020 03:43:37,551','-7933384,226','-3946880,982');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (6,'Aduana Boyenar',13,5,'04-23-2020 03:43:37,551','-7941364,134','-3955480,529');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (7,'Aduana Ruta 78 Melipilla',13,5,'04-23-2020 03:43:37,551','-7946254,905','-3979966,755');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (8,'Aduana San Pedro',13,5,'04-23-2020 03:43:37,551','-7965245,416','-3998399,975');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (9,'Aduana G-84 Melipilla',13,5,'04-23-2020 03:43:37,551','-7973527,417','-4014551,491');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (10,'Aduana Retén Central Rapel',13,5,'04-23-2020 03:43:37,551','-7966999,149','-4028020,395');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (11,'Aduana Retén Loica',13,5,'04-23-2020 03:43:37,551','-7945657,791','-4037325,053');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (12,'Aduana Villa Alhué',13,5,'04-23-2020 03:43:37,551','-7933357,737','-4037653,895');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (13,'Aduana Paine',13,5,'04-23-2020 03:43:37,551','-7872744,663','-4017752,972');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (14,'Aduana Huelquén',13,5,'04-23-2020 03:43:37,551','-7864602,04','-4020009,55');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (15,'Aeropuerto Internacional Arturo Merino Benitez',13,3,'04-23-2020 03:43:37,551','-7880726,004','-3948134,383');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (16,'Terminal de Buses Alameda',13,4,'04-23-2020 03:43:37,551','-7868802,521','-3955631,193');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (17,'Terminal de Buses Estación Central',13,4,'04-23-2020 03:43:37,551','-7868984,157','-3955681,73');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (18,'Terminal de Buses San Borja',13,4,'04-23-2020 03:43:37,551','-7868052,211','-3955769,191');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (19,'Terminal de Buses Pajaritos',13,4,'04-23-2020 03:43:37,551','-7872059,622','-3956174,319');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (20,'Terminal de Buses Bellavista',13,4,'04-23-2020 03:43:37,551','-7859005,867','-3964490,725');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (21,'Paso Monte Aymond',12,1,'04-23-2020 03:43:37,551','-7738908,734','-6825798,553');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (22,'Paso Casas Viejas',12,1,'04-23-2020 03:43:37,551','-8048260,842','-6743307,916');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (23,'Paso San Sebastián',12,1,'04-23-2020 03:43:37,551','-7637230,357','-7042408,709');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (24,'Paso Pino Hachado',9,1,'04-23-2020 03:43:37,551','-7892176,849','-4673584,743');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (25,'Paso HuaHum (Terrestre y Fluvial)',14,1,'04-23-2020 03:43:37,551','-7978573,825','-4880768,776');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (26,'Paso Pehuenche',7,1,'04-23-2020 03:43:37,551','-7836232,397','-4298107,963');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (27,'Paso Los Libertadores',5,1,'04-23-2020 03:43:37,551','-7801533,367','-3871157,586');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (28,'Paso Colchane',1,1,'04-23-2020 03:43:37,551','-7638777,207','-2187328,726');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (29,'Paso Jama',2,1,'04-23-2020 03:43:37,551','-7465403,192','-2659446,464');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (30,'Paso Chacalluta',15,1,'04-23-2020 03:43:37,551','-7827334,78','-2073911,008');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (31,'Paso Chungará',15,1,'04-23-2020 03:43:37,551','-7689301,301','-2070893,168');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (32,'Paso Huemules',11,1,'04-23-2020 03:43:37,551','-7975595,715','-5766626,098');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (33,'Paso Chile Chico (Barcaza)',11,2,'04-23-2020 03:43:37,551','-7985185,068','-5866676,05');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (34,'Paso de Sico',2,1,'04-23-2020 03:43:37,551','-7487488,96','-2734465,363');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (35,'Paso de Agua Negra',4,1,'04-23-2020 03:43:37,551','-7773024,964','-3528373,73');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (36,'Aeropuerto de Punta Arenas',12,3,'04-23-2020 03:43:37,551','-7886213,377','-6983939,155');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (37,'Aeropuerto de Puerto Natales',12,3,'04-23-2020 03:43:37,551','-8073539,077','-6740806,481');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (38,'Aeropuerto Balmaceda',11,3,'04-23-2020 03:43:37,551','-7980836,029','-5766342,781');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (39,'Aeródromo Teniente Vidal',11,3,'04-23-2020 03:43:37,551','-8026950,619','-5715670,839');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (40,'Aeródromo Marcel Marchant (La Paloma)',10,3,'04-23-2020 03:43:37,551','-8117203,509','-5079700,974');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (41,'Aeropuerto Tepual',10,3,'04-23-2020 03:43:37,551','-8137027,817','-5076679,155');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (42,'Aeropuerto Pichoy',14,3,'04-23-2020 03:43:37,551','-8135389,723','-4815276,118');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (43,'Aeropuerto Temuco',9,3,'04-23-2020 03:43:37,551','-8087010,081','-4711252,612');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (44,'Aeropuerto Carriel Sur',8,3,'04-23-2020 03:43:37,551','-8133332,248','-4407478,752');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (46,'Aeropuerto La Florida',4,3,'04-23-2020 03:43:37,551','-7926068,359','-3492671,095');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (47,'Aeródromo de Atacama',3,3,'04-23-2020 03:43:37,551','-7878023,751','-3156289,7');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (48,'Aeropuerto Andrés Sabella',2,3,'04-23-2020 03:43:37,551','-7841675,15','-2685541,381');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (49,'Aeropuerto El Loá',2,3,'04-23-2020 03:43:37,551','-7670845,515','-2571401,997');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (50,'Aeropuerto General Diego Aracenas',1,3,'04-23-2020 03:43:37,551','-7812536,892','-2336633,056');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (51,'Aeropuerto de Chacalluta',15,3,'04-23-2020 03:43:37,551','-7829961,933','-2078457,175');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (52,'Paso Cuya-Camarones',15,5,'04-23-2020 03:43:37,551','-7812342,594','-2173856,307');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (53,'Puerto de Arica',15,2,'04-23-2020 03:43:37,551','-7828265,29','-2093328,009');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (54,'Terminal de Buses de Arica',15,4,'04-23-2020 03:43:37,551','-7826281,356','-2092946,261');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (55,'Puerto de Iquique',1,2,'04-23-2020 03:43:37,551','-7809400,341','-2298055,815');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (56,'Terminal de Buses de Iquique',1,4,'04-23-2020 03:43:37,551','-7809102,984','-2297694,559');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (57,'Puerto de Antofagasta',2,2,'04-23-2020 03:43:37,551','-7837301,2','-2711028,268');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (58,'Terminal de Buses de Antofagasta',2,4,'04-23-2020 03:43:37,551','-7835649,142','-2706886,485');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (59,'Aduana Ñiquen',16,5,'04-23-2020 03:43:37,551','-7995103,178','-4340132,454');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (60,'Terminal de Buses Rancagua',6,4,'04-23-2020 03:43:37,551','-7875986,787','-4051194,174');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (61,'Puerto de Valparaíso',5,2,'04-23-2020 03:43:37,551','-7973638,313','-3900061,542');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (62,'Puerto de San Antonio',5,2,'04-23-2020 03:43:37,551','-7972713,388','-3975514,084');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (63,'Puerto de Quintero y Ventanas',5,2,'04-23-2020 03:43:37,551','-7957472,493','-3862516,562');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (64,'Terminal de Buses de Valparaíso',5,4,'04-23-2020 03:43:37,551','-7971194,23','-3901551,581');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (65,'Terminal de Buses de Viña del Mar',5,4,'04-23-2020 03:43:37,551','-7964627,18','-3898702,56');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (66,'Terminal de Buses Calera',5,4,'04-23-2020 03:43:37,551','-7924681,713','-3866884,488');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (67,'Puerto de Puerto Natales',12,2,'04-23-2020 03:43:37,551','-8071147,605','-6752896,043');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (68,'Terminal de Buses de Puerto Natales',12,4,'04-23-2020 03:43:37,551','-8069389,507','-6751179,371');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (69,'Puerto de Punta Arenas',12,2,'04-23-2020 03:43:37,551','-7893555,396','-7013938,592');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (70,'Puerto de Coronel',8,2,'04-23-2020 03:43:37,551','-8142709,634','-4443636,73');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (71,'Puerto de Talcahuano',8,2,'04-23-2020 03:43:37,551','-8138464,946','-4399214,577');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (72,'Peaje Pichidangui',4,5,'04-23-2020 03:43:37,551','-7961650,205','-3786299,916');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (73,'Puerto de Coquimbo',4,2,'04-23-2020 03:43:37,551','-7942567,535','-3499524,014');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (74,'Paso Ollagüe',2,1,'04-23-2020 03:43:37,551','-7597917,919','-2418707,349');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (75,'Puerto de Tocopilla',2,2,'04-23-2020 03:43:37,551','-7815486,474','-2522928,399');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (76,'Puerto de Mejillones',2,2,'04-23-2020 03:43:37,551','-7837802,528','-2642620,261');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (77,'Control Interno Quillagua',1,5,'04-23-2020 03:43:37,551','-7742404,454','-2466863,34');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (78,'Control Interno El Loa',1,5,'04-23-2020 03:43:37,551','-7798666,741','-2442484,178');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (79,'Aduana Acceso a Chañaral',3,5,'04-23-2020 03:43:37,551','-7849088,034','-3044233,025');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (80,'Área de Servicio "Incahuasi"',3,5,'04-23-2020 03:43:37,551','-7907901,22','-3419131,325');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (81,'Puerto de Corral',14,2,'04-23-2020 03:43:37,551','-8173456,173','-4848226,665');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (82,'Terminal de Buses de Valdivia',14,4,'04-23-2020 03:43:37,551','-8152564,606','-4839211,206');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (83,'Terminal de Buses de Curicó',7,4,'04-23-2020 03:43:37,551','-7931007,352','-4161764,634');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (84,'Cruce Ibañez-Cerro Castillo',11,5,'04-23-2020 03:43:37,551','-8021848,069','-5797922,753');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (85,'Villa Vanguardia',10,5,'04-23-2020 03:43:37,551','-8051971,539','-5413442,347');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (86,'San Pablo',10,5,'04-23-2020 03:43:37,551','-8126538,619','-4925782,976');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (87,'Caleta Gonzalo',10,2,'04-23-2020 03:43:37,551','-8082284,718','-5245143,651');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (88,'Terminal de Buses Municipal de Coyhaique',11,4,'04-23-2020 03:43:37,551','-8023384,296','-5712425,812');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (89,'Terminal de Buses de Puerto Montt',10,4,'04-23-2020 03:43:37,551','-8120789,094','-5083045,688');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (90,'Terminal de Buses de Osorno',10,4,'04-23-2020 03:43:37,551','-8140318,973','-4949578,945');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (91,'Terminal de Buses Talca',7,4,'04-23-2020 03:43:37,551','-7975727,641','-4222520,602');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (92,'Terminal de Buses Linares',7,4,'04-23-2020 03:43:37,551','-7969224,679','-4279607,414');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (93,'Terminal de Buses Cauquenes',7,4,'04-23-2020 03:43:37,551','-8050900,69','-4295597,164');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (94,'Terminal de Buses Constitución',7,4,'04-23-2020 03:43:37,551','-8060068,678','-4209702,342');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (95,'Muelle Chaitén',10,2,'04-23-2020 03:43:37,551','-8095053,68','-5298533,677');
+INSERT INTO Aduana(ID_Aduana,"Nombre de aduana",ID_Region,"Tipo de Establecimiento","Fecha de Creacion",x,y) VALUES (96,'Aduana la Junta',11,5,'04-23-2020 03:43:37,551','-8059322,806','-5460001,254');
