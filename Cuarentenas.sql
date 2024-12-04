@@ -84,7 +84,7 @@ INSERT INTO Cuarentenas(ID_Cuarentena,ID_Region,Nombre,Fecha_Inicio,Fecha_Termin
 INSERT INTO Cuarentenas(ID_Cuarentena,ID_Region,Nombre,Fecha_Inicio,Fecha_Termino) VALUES (76,5,'San Antonio','2020-06-10','2020-07-28');
 INSERT INTO Cuarentenas(ID_Cuarentena,ID_Region,Nombre,Fecha_Inicio,Fecha_Termino) VALUES (78,5,'Viña del Mar','2020-06-13',NULL);
 INSERT INTO Cuarentenas(ID_Cuarentena,ID_Region,Nombre,Fecha_Inicio,Fecha_Termino) VALUES (79,5,'Valparaíso','2020-06-13',NULL);
-INSERT INTO Cuarentenas(ID_Cuarentena,ID_Region,Nombre,Fecha_Inicio,Fecha_Termino) VALUES (80,NULL,'Pozo Almonte (Radio Urbano)','2020-06-13',NULL);
+INSERT INTO Cuarentenas(ID_Cuarentena,ID_Region,Nombre,Fecha_Inicio,Fecha_Termino) VALUES (80,1,'Pozo Almonte (Radio Urbano)','2020-06-13',NULL);
 INSERT INTO Cuarentenas(ID_Cuarentena,ID_Region,Nombre,Fecha_Inicio,Fecha_Termino) VALUES (82,13,'Melipilla (Área Urbana)','2020-06-13',NULL);
 INSERT INTO Cuarentenas(ID_Cuarentena,ID_Region,Nombre,Fecha_Inicio,Fecha_Termino) VALUES (83,13,'Curacaví (Área Urbana)','2020-06-13',NULL);
 INSERT INTO Cuarentenas(ID_Cuarentena,ID_Region,Nombre,Fecha_Inicio,Fecha_Termino) VALUES (84,13,'TilTil (Área Urbana)','2020-06-13','2020-07-28');
