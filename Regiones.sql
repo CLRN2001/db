@@ -24,8 +24,9 @@ DROP TABLE IF EXISTS `Regiones`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `Regiones` (
-  Region varchar(41) NOT NULL,
-  ID_Region bigint(20) NOT NULL PRIMARY KEY
+  Region varchar(41),
+  ID_Region bigint(20) PRIMARY KEY,
+  Fallecidos bigint(20)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -35,7 +36,22 @@ CREATE TABLE `Regiones` (
 
 LOCK TABLES `Regiones` WRITE;
 /*!40000 ALTER TABLE `Regiones` DISABLE KEYS */;
-INSERT INTO `Regiones` VALUES ('Antofagasta',2),('Arica y Parinacota',15),('Atacama',3),('Aysén del General Carlos Ibáñez del Campo',11),('Biobío',8),('Coquimbo',4),('La Araucanía',9),('Libertador General Bernardo O\'Higgins',6),('Los Lagos',10),('Los Ríos',14),('Magallanes y de la Antártica Chilena',12),('Maule',7),('Metropolitana de Santiago',13),('Ñuble',16),('Tarapacá',1),('Valparaíso',5);
+INSERT INTO `Regiones` VALUES ('Antofagasta',2,550),
+('Arica y Parinacota',15,195),
+('Atacama',3,101),
+('Aysén del General Carlos Ibáñez del Campo',11,8),
+('Biobío',8,546),
+('Coquimbo',4,261),
+('La Araucanía',9,187),
+('Libertador General Bernardo O\Higgins',6,518),
+('Los Lagos',10,161),
+('Los Ríos',14,43),
+('Magallanes y de la Antártica Chilena',12,166),
+('Maule',7,450),
+('Metropolitana de Santiago',13,10116),
+('Ñuble',16,163),
+('Tarapacá',1,246),
+('Valparaíso',5,518);
 /*!40000 ALTER TABLE `Regiones` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
